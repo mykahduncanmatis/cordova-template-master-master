@@ -38,3 +38,24 @@ h1 {
     
 }
 
+.gallery {
+    overflow: auto;
+    white-space: nowrap;
+    padding: 2px;
+    height: 80%;
+}
+/*HOW TO DESIGN SCROLL BAR FROM https://www.digitalocean.com/community/tutorials/css-scrollbars */
+.gallery::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+  }
+  
+  .gallery::-webkit-scrollbar-track {
+    background: rgb(193, 193, 196);      
+    border-radius: 12px;  /* color of the tracking area */
+  }
+  
+  .gallery::-webkit-scrollbar-thumb {
+    background-color: royalblue;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    
+  }
